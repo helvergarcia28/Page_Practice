@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    background-color: #1e272e;
+}
+
+header, section, footer, aside, nav, article, hgroup {
+    display: block;
+}
+
+h2 { 
+    font: bold 14px sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.todo { 
+    background: #485460;
+    margin: 30px auto;
+    width: 1200px;
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+
+.cabeza {
+    background: #dfe6e9;
+    border: 6px solid #CAD3C8;
+    padding: 70px 20px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.cabeza h1 {
+    text-shadow: 6px 6px 6px #636e72;
+    font: cursive;
+    font-size: 50px;
+    text-align: left;
+}
+
+.menu{
+    background: #b2bec3;
+    padding: 8px 15px;
+    text-align: left;
+    border: 6px solid #CAD3C8;
+    border-radius: 15px;
+    margin: 5px;
+
+}
+
+.menu li {
+    font: bold 30px cursive;
+    list-style: none;
+    padding: 5px;
+    margin: 8px;
+    text-shadow: 6px 6px 6px #636e72;
+    display: inline-block;
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+address a {
+    color: black;
+    
+}
+
+.seccion {
+    margin: 15px;
+    width: 800px;
+    float: left;
+}
+
+article {
+    margin: 30px;
+    background: #dfe6e9;
+    border: 2px solid #CAD3C8;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+
+}
+
+time { 
+    color: #3dc1d3;
+    font: bold 15px cursive;
+}
+
+article hgroup h1 {
+    font: bold 25px cursive;
+    text-shadow: 6px 6px 6px #636e72;
+
+}
+
+article hgroup h2 {
+    font: bold 15px cursive;
+    text-shadow: 6px 6px 6px #636e72;
+    
+}
+
+article footer {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.columna {
+    width: 350px;
+    float: left;
+    margin: 15px 0;
+}
+
+.columna blockquote {
+    margin-top: 30px;
+    border: 2px solid #CAD3C8;
+    padding: 40px;
+    background: #dfe6e9;
+    margin-bottom: 20px;
+    border-radius: 15px;
+
+}
+.pie {
+    clear: both;
+    padding: 20px;
+    background: #2C3A47;
+    color: white;
+    border-radius: 15px;
+    font: 15px cursive;
+    margin: 8px;
+
+}
+
+.pie a {
+    color: white;
+}
+
+img {
+    width: 550px;
+    height: 700px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #2C3A47;
+}
+
+.textos {
+    font: bold 15px cursive;
+    text-align: center;
+    color: #2d3436;
+    padding: 10px;
+    
+}
+
+footer p {
+    text-align: left;
+    font: bold 15px cursive;
+    color: #341f97;
+}
+
+.baner {
+    background: #d1d8e0;
+    padding: 2px;
+    border-radius: 15px;
+}
+
+blockquote a {
+    color: #2d3436;
+
+}
+
+blockquote li {
+    list-style: none;
+}
+
+video {
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #2C3A47;
+}
+
+aside {
+    margin: 30px;
+    color: black;
+    font: bold 15px cursive;
+}
